@@ -7,22 +7,49 @@
     --LightGrey: hsl(30, 18%, 87%);
     --WengeBrown: hsl(30, 10%, 34%);
     --DarkCharcoal: hsl(24, 5%, 18%);
-}
+} 
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: var(--Eggshell)
+    background-color: var(--Eggshell);
 }
 
 .container {
     background-color: var(--White);
     max-width: 500px;
     padding: 20px;
+    border-radius: 2%;
 }
 
 .img-container img {
     width: 100%;
+    border-radius: 2%;
 }
+
+.first-content h2 {
+    color: var(--DarkCharcoal);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.first-content p {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+
+
+
+
+/* 
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
