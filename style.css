@@ -11,6 +11,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -19,9 +20,11 @@ body {
 
 .container {
     background-color: var(--White);
-    max-width: 650px;
+    max-width: 630px;
     padding: 30px;
-    border-radius: 2%;
+    border-radius: 2.5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .img-container img {
@@ -152,15 +155,23 @@ body {
     padding-left: 10px;
 }
 
-.fifth-content table {
-    
-}
+table {
+    border-collapse: collapse;
+  }
+  
+  tr{
+    border-bottom: 1px solid var(--WengeBrown);
+    padding-left: 50px;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    color: var(--WengeBrown);
+  }
 
+  .left {
+    padding-left: 30px;
+  }
 
-/* 
-.outfit-<uniquifier> {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
+  .right {
+    text-indent: 16em;
+    color: var(--Nutmeg);
+  }
