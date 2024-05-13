@@ -72,8 +72,7 @@ body {
 .second-content span {
     color: var(--WengeBrown);
     font-weight: 300;
-    padding-top: 5px;
-    
+    padding-top: 5px;  
 }
 
 .second-content span.first {
@@ -124,10 +123,38 @@ body {
 }
 
 .fourth-content span {
-    color: var(--DarkCharcoal);
+    color: var(--WengeBrown);
     text-indent: 5em;
+    font-weight: 200;
+    padding-top: 5px;
 }
 
+.fourth-content span.topic {
+  font-weight: 700;
+}
+
+/* Fifth Div Start Here */
+
+.fifth-content h3 {
+    color: var(--Nutmeg);
+    font-family: "Young Serif", serif;
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.fifth-content p {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    color: var(--WengeBrown);
+    margin-bottom: 35px;
+    padding-left: 10px;
+}
+
+.fifth-content table {
+    
+}
 
 
 /* 
