@@ -29,6 +29,8 @@ body {
     border-radius: 2%;
 }
 
+/* First Div Starts Here */
+
 .first-content h2 {
     color: var(--DarkCharcoal);
     font-family: "Young Serif", serif;
@@ -44,6 +46,8 @@ body {
     color: var(--WengeBrown);
     margin-bottom: 35px;
 }
+
+/* Second Div Starts Here */
 
 .second-content {
     background-color: var(--RoseWhite);
@@ -76,6 +80,8 @@ body {
     font-weight: 600;
 }
 
+/* Third Div Starts Here */
+
 .third-content {
     color: var(--Nutmeg);
 }
@@ -96,6 +102,31 @@ body {
     text-indent: 1em;
 }
 
+.line {
+    width: 95%;
+}
+
+/* Fourth Div Starts here */
+
+.fourth-content {
+    color: var(--Nutmeg);
+}
+
+.fourth-content h3 {
+    font-family: "Young Serif", serif;
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.fourth-content ol li {
+    padding-top: 10px;
+}
+
+.fourth-content span {
+    color: var(--DarkCharcoal);
+    text-indent: 5em;
+}
 
 
 
