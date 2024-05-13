@@ -34,19 +34,66 @@ body {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .first-content p {
     font-size: 16px;
     font-family: "Outfit", sans-serif;
     color: var(--WengeBrown);
+    margin-bottom: 35px;
 }
 
 .second-content {
     background-color: var(--RoseWhite);
     padding: 15px;
     border-radius: 5%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: var(--DarkRaspberry);
+}
+
+.second-content h4 {
+    padding-left: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.second-content ul li {
+    text-indent: 1em;
+    margin-top: 10px;
+}
+
+.second-content span {
+    color: var(--WengeBrown);
+    font-weight: 300;
+    padding-top: 5px;
+    
+}
+
+.second-content span.first {
+    font-weight: 600;
+}
+
+.third-content {
+    color: var(--Nutmeg);
+}
+
+.third-content h3 {
+    font-family: "Young Serif", serif;
+    font-size: 26px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.third-content ul li {
+    padding-top: 10px;
+}
+
+.third-content span {
+    color: var(--DarkCharcoal);
+    text-indent: 1em;
 }
 
 
