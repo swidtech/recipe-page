@@ -106,6 +106,10 @@ body {
 
 .line {
     width: 95%;
+    color: var(--DarkCharcoal);
+    padding: 0px 40px 0px 0px;
+    margin: 30px 30px 30px 0px;
+    border: solid -1px;
 }
 
 /* Fourth Div Starts here */
@@ -157,21 +161,32 @@ body {
 
 table {
     border-collapse: collapse;
+    margin-left: 10px;
   }
   
   tr{
     border-bottom: 1px solid var(--WengeBrown);
     padding-left: 50px;
+    padding-bottom: 20px;
     font-size: 16px;
     font-family: "Outfit", sans-serif;
     color: var(--WengeBrown);
   }
 
+.left,.right {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
   .left {
     padding-left: 30px;
+    font-weight: 400;
+    font-size: small;
   }
 
   .right {
-    text-indent: 16em;
+    text-indent: 20em;
     color: var(--Nutmeg);
+    font-weight: 700;
+    font-size: small;
   }
